@@ -3,10 +3,10 @@ import pandas as pd
 
 # Database connection details
 DRIVER = 'ODBC Driver 17 for SQL Server'
-SERVER_NAME = '172.16.200.101'
-DATABASE_NAME = 'CAAB_AFS_DB'
-USER = 'sa'
-PW = 'tigerCaab12#'
+SERVER_NAME = '172.16.***.101'
+DATABASE_NAME = '*****'
+USER = '***'
+PW = '*******#'
 
 # Establish a connection to the database
 conn_str = f"DRIVER={{{DRIVER}}};SERVER={SERVER_NAME};DATABASE={DATABASE_NAME};UID={USER};PWD={PW}"
