@@ -4,17 +4,17 @@ from tkinter import messagebox
 
 # Testbed Database connection details
 # DRIVER = 'ODBC Driver 17 for SQL Server'
-# SERVER_NAME = '172.16.200.101'
-# DATABASE_NAME = 'CAAB_AFS_DB'
-# USER = 'sa'
-# PW = 'tigerCaab12#'
+# SERVER_NAME = '****.***.***.***'
+# DATABASE_NAME = '****'
+# USER = '****'
+# PW = '*****#'
 
 # Production Database connection details
 DRIVER = 'ODBC Driver 17 for SQL Server'
-SERVER_NAME = '172.16.160.21'
-DATABASE_NAME = 'CAAB_AFS_DB'
-USER = 'sa'
-PW = '@skyDB#96$caab'
+SERVER_NAME = '***.***.***.**'
+DATABASE_NAME = '****'
+USER = '****'
+PW = '@*****#****$****'
 
 # Function to disable all foreign key constraints
 def disable_foreign_keys(cursor):
