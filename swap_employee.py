@@ -2,10 +2,10 @@ import pyodbc
 
 # Database connection details
 DRIVER = 'ODBC Driver 17 for SQL Server'
-SERVER_NAME = '192.168.104.101'
-DATABASE_NAME = 'CAAB_AFS_DB'
-USER = 'sa'
-PW = 'Tigerit12#'
+SERVER_NAME = '****.****.****.****'
+DATABASE_NAME = '*****'
+USER = '****'
+PW = '********#'
 
 # Employee IDs
 present_employee_id = '1111111111'
